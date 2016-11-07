@@ -215,7 +215,7 @@ input[type=submit]:hover {
                         String queryString="update Usuario set Sesion='"+1+"' where NombreUsuario ='"+user+"';";
                          ps=c.prepareStatement(queryString);
                          ps.executeUpdate();
-                            out.println("<meta http-equiv='refresh' content='.0000001;URL=http://localhost:8080/LoG/principal.jsp'/>");
+                            out.println("<meta http-equiv='refresh' content='.0000001;URL=http://localhost:8080/LoG/index.jsp/principal.jsp'/>");
                        }
                        else {
                            out.println("<script> alert('Contraseña incorrecta');</script>");

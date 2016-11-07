@@ -24,10 +24,7 @@
     <body>
         <%
           HttpSession sesion = request.getSession();
-          if(sesion.getAttribute("user") == null){
-              String e="Inicia sesion o registrate";
-              response.sendRedirect("error.html?e="+e+"");
-          }
+         
                       String usuario = (String)sesion.getAttribute("user");
                             Connection c = null;
                             Statement s = null;

@@ -261,7 +261,7 @@ input[type=submit]:hover {
                          pstatement=con.prepareStatement(queryString);
                          pstatement.executeUpdate();
                              out.println("<script>alert('Registro exitoso')</script>");
-                             out.println("<meta http-equiv='refresh' content='.0000001;URL=http://localhost:8080/LoG/index.jsp'/>");
+                             out.println("<meta http-equiv='refresh' content='.0000001;URL=http://localhost:8080/LoG/index.jsp/index.jsp'/>");
                        
                     }
                     else {
